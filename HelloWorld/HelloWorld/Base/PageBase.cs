@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace HelloWorld
+namespace HelloWorld.Base
 {
 	public class PageBase : ContentPage
 	{
