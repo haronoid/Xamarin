@@ -6,10 +6,6 @@ namespace HelloWorld
 {
 	public class HelloWorldPageViewModel : Base.ViewModelBase
 	{
-		void HandleFunc()
-		{
-
-		}
 
 		public ObservableCollection<Person> People { get; } = new ObservableCollection<Person>();
 
@@ -23,6 +19,28 @@ namespace HelloWorld
 					this.People.Add(new Person { Name = $"tanaka {r.Next()}" });
 					return true;
 				});
+
+			this.NowCommand = new Command(_ => this.Message = DateTime.Now.ToString(),
+			                              _ => this.canExecute);
+			this.message = "Command Event Test";
+		}
+
+		private string message;
+
+		public string Message
+		{
+			get { return this.message; }
+			set { this.SetProperty(ref this.message, value); }
+		}
+
+		public Command NowCommand { get; }
+
+		private bool canExecute;
+
+		public bool CanExecute
+		{
+			get { return this.canExecute; }
+			set { this.SetProperty(ref this.canExecute, value); this.NowCommand.ChangeCanExecute(); }
 		}
 	}
 }
