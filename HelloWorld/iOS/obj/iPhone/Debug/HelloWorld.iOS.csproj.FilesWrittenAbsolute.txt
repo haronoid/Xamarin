@@ -1,0 +1,15 @@
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/iOS/obj/iPhone/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/iOS/obj/iPhone/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/iOS/obj/iPhone/Debug/actool/_PartialAppManifest.items
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/iOS/obj/iPhone/Debug/actool/_BundleResourceWithLogicalName.items
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/iOS/obj/iPhone/Debug/optimized/
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/iOS/bin/iPhone/Debug/HelloWorld.iOS.exe.mdb
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/iOS/bin/iPhone/Debug/HelloWorld.iOS.exe
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/iOS/obj/iPhone/Debug/HelloWorld.iOS.exe
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/iOS/obj/iPhone/Debug/HelloWorld.iOS.exe.mdb
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/iOS/bin/iPhone/Debug/Xamarin.Forms.Core.dll
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.dll
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.iOS.dll
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/iOS/bin/iPhone/Debug/Xamarin.Forms.Xaml.dll
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/iOS/bin/iPhone/Debug/HelloWorld.dll
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/iOS/bin/iPhone/Debug/HelloWorld.dll.mdb

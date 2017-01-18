@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base:PageBase 
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:base="clr-namespace:HelloWorld.Base" 
+		xmlns:local="clr-namespace:HelloWorld" 
+		x:Class="HelloWorld.HelloWorldPage">
+	<base:PageBase.BindingContext>
+		<local:HelloWorldPageViewModel/>
+	</base:PageBase.BindingContext>
+    <base:PageBase.Resources>
+		<ResourceDictionary>
+			<x:String x:Key="resText">ResourceDictionary:Hello World</x:String>
+		</ResourceDictionary>
+	</base:PageBase.Resources>
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="500" />
+			<RowDefinition Height="*" />
+		</Grid.RowDefinitions>
+		<ScrollView Grid.Row="0" VerticalOptions="FillAndExpand" Orientation="Both">
+			<StackLayout >
+				<Label Text="{StaticResource resText}" />
+			    <Label Text="{x:Static local:Constants.sMessage}" />
+				<BoxView Color="Red" HorizontalOptions="Start"/>
+				<BoxView Color="Blue" HorizontalOptions="Center"/>
+				<BoxView Color="Green" HorizontalOptions="End"/>
+				<BoxView Color="Yellow" HorizontalOptions="Fill"/>
+				<Frame WidthRequest="100" HeightRequest="100">
+					<Label Text="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+				</Frame>
+				<ActivityIndicator Color="Red"
+						HorizontalOptions="Center"
+						VerticalOptions="Center"
+						IsRunning="true"/>
+				<Button Text="Handle_Click Event" Clicked="Handle_Clicked" />
+				<Label x:Name="label1" Text="button click event" />
+				<Button Text="Command Event" Command="{Binding NowCommand}" />
+				<Label Text="{Binding Message}" />
+				<Switch IsToggled="{Binding CanExecute, Mode=TwoWay}" />
+			</StackLayout>
+		</ScrollView>
+
+		<ListView Grid.Row="1" ItemsSource="{Binding People}">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<TextCell Text="{Binding Name}"/>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+	</Grid>
+</base:PageBase>
