@@ -15,7 +15,7 @@
 	</base:PageBase.Resources>
 	<Grid>
 		<Grid.RowDefinitions>
-			<RowDefinition Height="500" />
+			<RowDefinition Height="600" />
 			<RowDefinition Height="*" />
 		</Grid.RowDefinitions>
 		<ScrollView Grid.Row="0" VerticalOptions="FillAndExpand" Orientation="Both">
@@ -35,9 +35,12 @@
 						IsRunning="true"/>
 				<Button Text="Handle_Click Event" Clicked="Handle_Clicked" />
 				<Label x:Name="label1" Text="button click event" />
-				<Button Text="Command Event" Command="{Binding NowCommand}" />
+				<Button Text="Command Event" Command="{Binding NowCommand}" CommandParameter="yyyy/MM/dd" />
 				<Label Text="{Binding Message}" />
 				<Switch IsToggled="{Binding CanExecute, Mode=TwoWay}" />
+				<DatePicker x:Name="datePicker1" Format="yyyy/MM/dd hh:mm" VerticalOptions="CenterAndExpand">
+				</DatePicker>
+				<Label Text="{Binding Date, Source={x:Reference datePicker1}, StringFormat='{0:yyyy-MM-dd}'}" />
 			</StackLayout>
 		</ScrollView>
 

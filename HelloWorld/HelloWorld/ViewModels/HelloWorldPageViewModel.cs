@@ -20,7 +20,8 @@ namespace HelloWorld
 					return true;
 				});
 
-			this.NowCommand = new Command(_ => this.Message = DateTime.Now.ToString(),
+			// xにCommandParameterを代入、日付のフォーマットにして使える。
+			this.NowCommand = new Command(x => this.Message = DateTime.Now.ToString((string)x),
 			                              _ => this.canExecute);
 			this.message = "Command Event Test";
 		}
