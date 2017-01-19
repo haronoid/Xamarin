@@ -6,9 +6,6 @@
       <File FileName="HelloWorld/HelloWorldPage.xaml.cs" Line="20" Column="1" />
       <File FileName="HelloWorld/HelloWorldPage.xaml" Line="46" Column="3" />
       <File FileName="HelloWorld/ViewModels/HelloWorldPageViewModel.cs" Line="23" Column="45" />
-      <File FileName="HelloWorld/Constants.cs" Line="6" Column="1" />
-      <File FileName="HelloWorld/obj/Debug/HelloWorld.HelloWorldPage.xaml.g.cs" Line="1" Column="1" />
-      <File FileName="iOS/AppDelegate.cs" Line="19" Column="1" />
       <File FileName="状態: HelloWorld" />
     </Files>
   </MonoDevelop.Ide.Workbench>

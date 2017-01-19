@@ -38,9 +38,9 @@
 				<Button Text="Command Event" Command="{Binding NowCommand}" CommandParameter="yyyy/MM/dd" />
 				<Label Text="{Binding Message}" />
 				<Switch IsToggled="{Binding CanExecute, Mode=TwoWay}" />
-				<DatePicker x:Name="datePicker1" Format="yyyy/MM/dd hh:mm" VerticalOptions="CenterAndExpand">
-				</DatePicker>
 				<Label Text="{Binding Date, Source={x:Reference datePicker1}, StringFormat='{0:yyyy-MM-dd}'}" />
+				<DatePicker x:Name="datePicker1" Format="yyyy/MM/dd hh:mm" VerticalOptions="CenterAndExpand" />
+				<Entry Placeholder="Placeholder" PlaceholderColor="Red" TextColor="Blue"/>
 			</StackLayout>
 		</ScrollView>
 
