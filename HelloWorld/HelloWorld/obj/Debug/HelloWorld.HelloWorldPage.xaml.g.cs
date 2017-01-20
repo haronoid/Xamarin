@@ -23,10 +23,14 @@ namespace HelloWorld {
         private global::Xamarin.Forms.DatePicker datePicker1;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ListView listvView1;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(HelloWorldPage));
             label1 = this.FindByName <global::Xamarin.Forms.Label>("label1");
             datePicker1 = this.FindByName <global::Xamarin.Forms.DatePicker>("datePicker1");
+            listvView1 = this.FindByName <global::Xamarin.Forms.ListView>("listvView1");
         }
     }
 }

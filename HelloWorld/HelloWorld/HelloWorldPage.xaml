@@ -15,7 +15,7 @@
 	</base:PageBase.Resources>
 	<Grid>
 		<Grid.RowDefinitions>
-			<RowDefinition Height="600" />
+			<RowDefinition Height="500" />
 			<RowDefinition Height="*" />
 		</Grid.RowDefinitions>
 		<ScrollView Grid.Row="0" VerticalOptions="FillAndExpand" Orientation="Both">
@@ -41,15 +41,32 @@
 				<Label Text="{Binding Date, Source={x:Reference datePicker1}, StringFormat='{0:yyyy-MM-dd}'}" />
 				<DatePicker x:Name="datePicker1" Format="yyyy/MM/dd hh:mm" VerticalOptions="CenterAndExpand" />
 				<Entry Placeholder="Placeholder" PlaceholderColor="Red" TextColor="Blue"/>
+				<ListView ItemsSource="{Binding Family}" 
+						VerticalOptions="FillAndExpand" HeightRequest="200"
+						IsGroupingEnabled="true" GroupDisplayBinding="{Binding GroupName}" GroupShortNameBinding="{Binding GroupShortName}">
+					<ListView.ItemTemplate>
+						<DataTemplate>
+							<TextCell Text="{Binding Name}"/>
+						</DataTemplate>
+					</ListView.ItemTemplate>
+				</ListView>
 			</StackLayout>
 		</ScrollView>
 
-		<ListView Grid.Row="1" ItemsSource="{Binding People}">
+		<ListView x:Name="listvView1" Grid.Row="1" ItemsSource="{Binding People}" 
+				IsPullToRefreshEnabled="true"
+				Refreshing="Handle_Refreshing">
 			<ListView.ItemTemplate>
 				<DataTemplate>
 					<TextCell Text="{Binding Name}"/>
 				</DataTemplate>
 			</ListView.ItemTemplate>
+			<ListView.Header>
+				<Label Text="Headderである"/>
+			</ListView.Header>
+			<ListView.Footer>
+				<Label Text="Footerである"/>
+			</ListView.Footer>
 		</ListView>
 	</Grid>
 </base:PageBase>

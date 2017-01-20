@@ -9,6 +9,8 @@ namespace HelloWorld
 
 		public ObservableCollection<Person> People { get; } = new ObservableCollection<Person>();
 
+		public ObservableCollection<Family> Family { get; set;}
+
 		public HelloWorldPageViewModel()
 		{
 			var r = new Random();
@@ -24,6 +26,21 @@ namespace HelloWorld
 			this.NowCommand = new Command(x => this.Message = DateTime.Now.ToString((string)x),
 			                              _ => this.canExecute);
 			this.message = "Command Event Test";
+
+			this.Family = new ObservableCollection<Family>
+			{
+				new Family("tanaka family", "t")
+				{
+					new Person(){Name = "tanaka taro"},
+					new Person(){Name = "tanaka jiro"},
+					new Person(){Name = "tamala saburo"}
+				},
+				new Family("kimura family","k")
+				{
+					new Person() { Name = "kimura taro"},
+					new Person() { Name = "kimura jiro"}
+				}
+			};
 		}
 
 		private string message;
