@@ -2,13 +2,15 @@
   <MonoDevelop.Ide.ItemProperties.HelloWorld.Droid PreferredExecutionTarget="Android.Android_ARMv7a" />
   <MonoDevelop.Ide.Workbench ActiveDocument="状態: HelloWorld">
     <Files>
-      <File FileName="HelloWorld/App.xaml.cs" Line="1" Column="1" />
-      <File FileName="HelloWorld/HelloWorldPage.xaml.cs" Line="20" Column="5" />
-      <File FileName="HelloWorld/HelloWorldPage.xaml" Line="61" Column="16" />
-      <File FileName="HelloWorld/ViewModels/HelloWorldPageViewModel.cs" Line="12" Column="45" />
+      <File FileName="HelloWorld/App.xaml.cs" Line="15" Column="36" />
+      <File FileName="HelloWorld/HelloWorldPage.xaml.cs" Line="8" Column="53" />
+      <File FileName="HelloWorld/HelloWorldPage.xaml" Line="3" Column="48" />
+      <File FileName="HelloWorld/ViewModels/HelloWorldPageViewModel.cs" Line="28" Column="40" />
       <File FileName="HelloWorld/Models/Family.cs" Line="8" Column="3" />
-      <File FileName="HelloWorld/Models/Person.cs" Line="1" Column="1" />
+      <File FileName="HelloWorld/Models/Person.cs" Line="27" Column="1" />
       <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="HelloWorld/MyPage.xaml" Line="9" Column="23" />
+      <File FileName="HelloWorld/MyPage.xaml.cs" Line="1" Column="1" />
       <File FileName="状態: HelloWorld" />
     </Files>
   </MonoDevelop.Ide.Workbench>

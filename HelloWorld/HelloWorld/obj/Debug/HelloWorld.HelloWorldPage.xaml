@@ -55,12 +55,7 @@
 						IsGroupingEnabled="true" GroupDisplayBinding="{Binding GroupName}" GroupShortNameBinding="{Binding GroupShortName}">
 					<ListView.ItemTemplate>
 						<DataTemplate>
-							<ViewCell>
-								<StackLayout>
-									<EntryCell Text="{Binding Name}" Label="名前" Keyboard="Text" />
-									<SwitchCell Text="{Binding Name}" On="true" />
-								</StackLayout>
-							</ViewCell>
+							<SwitchCell Text="{Binding Name}" On="true" />
 						</DataTemplate>
 					</ListView.ItemTemplate>
 				</ListView>

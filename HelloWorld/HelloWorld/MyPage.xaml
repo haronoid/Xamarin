@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<base:PageBase 
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+		xmlns:base="clr-namespace:HelloWorld.Base" 
+		xmlns:local="clr-namespace:HelloWorld" 
+		x:Class="HelloWorld.MyPage">
+	<base:PageBase.Resources>
+		<ResourceDictionary>
+			<DataTemplate x:Key = "normal">
+				<ViewCell>
+					<Label Text="{Binding Name}"/>
+				</ViewCell>
+			</DataTemplate>
+			<DataTemplate x:Key = "silver">
+				<ViewCell>
+					<StackLayout Orientation="Horizontal">
+						<Label Text="☆" HorizontalOptions="Start" />
+						<Label Text="{Binding Name}"/>
+					</StackLayout>
+				</ViewCell>
+			</DataTemplate>
+			<local:PersonDataTempleateSelector x:Key="personTemp"
+					SilverTemplate="{StaticResource silver}"
+					NormalTemplate="{StaticResource normal}" />
+		</ResourceDictionary>
+	</base:PageBase.Resources>
+
+	<ListView x:Name="listView" 
+			ItemTemplate="{StaticResource personTemp}">			
+	</ListView>
+
+</base:PageBase>

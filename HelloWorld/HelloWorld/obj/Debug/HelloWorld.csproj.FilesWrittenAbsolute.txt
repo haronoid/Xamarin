@@ -10,3 +10,5 @@
 /Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/bin/Debug/Xamarin.Forms.Core.dll
 /Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/bin/Debug/Xamarin.Forms.Platform.dll
 /Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/bin/Debug/Xamarin.Forms.Xaml.dll
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.MyPage.xaml
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.MyPage.xaml.g.cs
