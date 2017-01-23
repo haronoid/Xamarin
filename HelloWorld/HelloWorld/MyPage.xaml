@@ -25,9 +25,27 @@
 					NormalTemplate="{StaticResource normal}" />
 		</ResourceDictionary>
 	</base:PageBase.Resources>
+	<StackLayout>
+		<!-- Slider -->
+		<Slider x:Name="slider" Maximum="100" Minimum="20" />
+		<Label Text="{Binding Value,Source={x:Reference slider}}" HorizontalOptions="Center"/>
+		
+		<!-- SearchBar -->
+		<SearchBar x:Name="searchBar" Placeholder="検索条件お入力いてください。" />
+		<Label x:Name="searchLabel" HorizontalOptions="Center" />
 
-	<ListView x:Name="listView" 
-			ItemTemplate="{StaticResource personTemp}">			
-	</ListView>
+		<!--ProgressBar-->
+		<Button Text="PressTo" Clicked="ProgressBar_Clicked" />
+		<ProgressBar x:Name="progressBar" Progress="0.2"/>
+
+		<!-- Picker -->
+		<Picker x:Name="picker" SelectedIndexChanged="Handle_SelectedIndexChanged" />
+		<Button Text="Next Page" Clicked="Nextpage_clicked"/>
+
+		<!-- DatatemplateSelector -->
+		<ListView x:Name="listView" 
+				ItemTemplate="{StaticResource personTemp}">			
+		</ListView>
+	</StackLayout>
 
 </base:PageBase>

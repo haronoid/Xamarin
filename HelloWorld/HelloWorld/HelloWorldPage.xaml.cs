@@ -12,9 +12,9 @@ namespace HelloWorld
 		/// </summary>
 		/// <param name="sender">Sender.</param>
 		/// <param name="e">E.</param>
-		void Handle_Refreshing(object sender, System.EventArgs e)
+	 	async void Handle_Refreshing(object sender, System.EventArgs e)
 		{
-			//await Task.Delay(3000);
+			await Task.Delay(3000);
 			for (int i = 0; i < 5; i++)
 			{
 				
