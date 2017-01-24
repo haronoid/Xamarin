@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{A464C83D-9F5D-4E6E-B5E5-76E4D27987C3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
+    <Files>
+      <File FileName="HelloMobileCenter/App.xaml.cs" Line="15" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="27" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.HelloMobileCenter.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F4240726-0FC7-4276-9871-51F0FC3237D0" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
