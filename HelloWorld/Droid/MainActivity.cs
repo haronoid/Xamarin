@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.Azure.Mobile;
 
 using Android.App;
 using Android.Content;
@@ -21,6 +22,8 @@ namespace HelloWorld.Droid
 			base.OnCreate(bundle);
 
 			global::Xamarin.Forms.Forms.Init(this, bundle);
+
+			MobileCenter.Configure("c6ad845a-abf0-424c-9a3d-6832bba2d838");
 
 			LoadApplication(new App());
 		}

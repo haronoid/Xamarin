@@ -1,4 +1,7 @@
 ﻿using Xamarin.Forms;
+using Microsoft.Azure.Mobile;
+using Microsoft.Azure.Mobile.Analytics;
+using Microsoft.Azure.Mobile.Crashes;
 
 namespace HelloWorld
 {
@@ -8,8 +11,10 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
+			MobileCenter.Start(typeof(Analytics), typeof(Crashes));
 			//MainPage = new HelloWorldPage();
-			MainPage = new MyPage();
+			//MainPage = new MyPage();
+			MainPage = new MyPage2();
 		}
 
 		protected override void OnStart()

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<base:PageBase  
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:base="clr-namespace:HelloWorld.Base" 
+		xmlns:local="clr-namespace:HelloWorld" 
+		x:Class="HelloWorld.MyPage2">
+	<StackLayout>
+		<!-- WebView
+			iOsの場合、Info.plistにNSAppTransportSecurityキーを追加しInternet使用を許可する必要あり。
+			Androidの場合、AndroidManifest.xmlを開いてINTERNETのパーミッションを追加する。
+		-->
+		<WebView HeightRequest="300" Source="http://www.goole.com" />
+		
+		<!-- TimePicker --> 
+		<TimePicker x:Name="timePicker" />
+		<Label Text="{Binding Time, Source={x:Reference timePicker}, StringFormat='{0} selected'}}" HorizontalOptions="Center" />
+
+		<!-- TableView -->
+		<TableView Intent="Settings">
+			<TableView.Root>
+				<TableSection Title="Section1" >
+					<SwitchCell Text="Item1" On="true" />
+					<EntryCell Label="Item2" Text="Item2 texxt" />
+				</TableSection>
+				<TableSection Title="Section2" >
+					<SwitchCell Text="Item3" On="true" />
+					<EntryCell Label="Item4" Text="Item2 texxt" />
+				</TableSection>
+				<TableSection Title="Section3" >
+					<SwitchCell Text="Item5" On="true" />
+					<EntryCell Label="Item6" Text="Item2 texxt" />
+				</TableSection>
+			</TableView.Root>
+		</TableView>
+	</StackLayout>
+	
+</base:PageBase >

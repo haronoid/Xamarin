@@ -26,6 +26,14 @@
 		</ResourceDictionary>
 	</base:PageBase.Resources>
 	<StackLayout>
+		<!-- Switch -->
+		<Switch x:Name="switch" HorizontalOptions="Center" />
+		<Label Text="{Binding IsToggled,Source={x:Reference switch}}" HorizontalOptions="Center"/>
+		
+		<!-- Stepper -->
+		<Stepper x:Name="stepper" Maximum="100" Minimum="20" Increment="5" HorizontalOptions="Center" />
+		<Label Text="{Binding Value,Source={x:Reference stepper}}" HorizontalOptions="Center"/>
+		
 		<!-- Slider -->
 		<Slider x:Name="slider" Maximum="100" Minimum="20" />
 		<Label Text="{Binding Value,Source={x:Reference slider}}" HorizontalOptions="Center"/>

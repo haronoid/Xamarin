@@ -14,3 +14,8 @@
 /Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.MyPage.xaml.g.cs
 /Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.NextPage.xaml
 /Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.NextPage.xaml.g.cs
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/bin/Debug/Microsoft.Azure.Mobile.dll
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/bin/Debug/Microsoft.Azure.Mobile.Analytics.dll
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/bin/Debug/Microsoft.Azure.Mobile.Crashes.dll
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.MyPage2.xaml
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.MyPage2.xaml.g.cs
