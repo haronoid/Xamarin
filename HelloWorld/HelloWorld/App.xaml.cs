@@ -15,6 +15,7 @@ namespace HelloWorld
 			//MainPage = new HelloWorldPage();
 			//MainPage = new MyPage();
 			MainPage = new MyPage2();
+			//MainPage = new MasterDetailTestPage();
 		}
 
 		protected override void OnStart()

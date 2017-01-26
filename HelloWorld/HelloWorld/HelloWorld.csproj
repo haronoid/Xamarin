@@ -63,6 +63,7 @@
     <Compile Include="MyPage2.xaml.cs">
       <DependentUpon>MyPage2.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Base\MasterDetailPageBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

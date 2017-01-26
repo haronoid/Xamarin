@@ -6,11 +6,14 @@
 		xmlns:local="clr-namespace:HelloWorld" 
 		x:Class="HelloWorld.MyPage2">
 	<StackLayout>
+		<!-- WebViewに直接 HTML設定うる。 -->
+		<Button Text="WebView変更" Clicked="Handle_Clicked" />
+
 		<!-- WebView
 			iOsの場合、Info.plistにNSAppTransportSecurityキーを追加しInternet使用を許可する必要あり。
 			Androidの場合、AndroidManifest.xmlを開いてINTERNETのパーミッションを追加する。
 		-->
-		<WebView HeightRequest="300" Source="http://www.goole.com" />
+		<WebView x:Name="webView" HeightRequest="300" Source="http://www.goole.com" />
 		
 		<!-- TimePicker --> 
 		<TimePicker x:Name="timePicker" />

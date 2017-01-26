@@ -19,3 +19,5 @@
 /Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/bin/Debug/Microsoft.Azure.Mobile.Crashes.dll
 /Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.MyPage2.xaml
 /Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.MyPage2.xaml.g.cs
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.MasterDetailTestPage.xaml
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.MasterDetailTestPage.xaml.g.cs
