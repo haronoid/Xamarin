@@ -6,6 +6,9 @@
 		xmlns:local="clr-namespace:HelloWorld" 
 		x:Class="HelloWorld.MyPage2">
 	<StackLayout>
+		<!-- Modal Open Test -->
+		<Button Text="Modaal Open" Clicked="NextPage_Clicked" />
+
 		<!-- WebViewに直接 HTML設定うる。 -->
 		<Button Text="WebView変更" Clicked="Handle_Clicked" />
 

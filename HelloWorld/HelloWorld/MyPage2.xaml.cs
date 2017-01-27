@@ -7,6 +7,11 @@ namespace HelloWorld
 {
 	public partial class MyPage2 : Base.PageBase
 	{
+		async void NextPage_Clicked(object sender, System.EventArgs e)
+		{
+			await this.Navigation.PushModalAsync(new NextPage());
+		}
+
 		/// <summary>
 		/// WebViewの内容を変える
 		/// </summary>

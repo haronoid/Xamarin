@@ -14,8 +14,9 @@ namespace HelloWorld
 			MobileCenter.Start(typeof(Analytics), typeof(Crashes));
 			//MainPage = new HelloWorldPage();
 			//MainPage = new MyPage();
-			MainPage = new MyPage2();
-			//MainPage = new MasterDetailTestPage();
+			//MainPage = new MyPage2();
+			//MainPage = new MasterPage();
+			MainPage = new NavigationPage(new MasterPage());
 		}
 
 		protected override void OnStart()
