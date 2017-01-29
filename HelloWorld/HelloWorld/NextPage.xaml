@@ -4,6 +4,11 @@
 		<StackLayout>
 			<Label Text="NextPage です。" />
 			<Button Text="戻る" Clicked="Close_Clicked" />
+
+			<Button Text="Open TappedPage" Clicked="OpenTappedPage_Clicked" />
+
+			<Button Text="Open CarouselPage" Clicked="OpenCarouselPage_Clicked" />
+
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

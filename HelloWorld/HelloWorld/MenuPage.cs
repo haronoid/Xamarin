@@ -43,6 +43,7 @@ namespace HelloWorld
 			data.Add(new MenuItem() { Title = "Menu1",TargetType=typeof(MyPage) });
 			data.Add(new MenuItem() { Title = "Menu2" , TargetType = typeof(MyPage2)});
 			data.Add(new MenuItem() { Title = "Menu3", TargetType = typeof(NextPage) });
+			data.Add(new MenuItem() { Title = "TappedPage", TargetType = typeof(TabbedPage) });
 
 			ItemsSource = data;
 

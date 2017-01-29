@@ -4,14 +4,15 @@
     <Files>
       <File FileName="HelloWorld/App.xaml.cs" Line="18" Column="25" />
       <File FileName="HelloWorld/MyPage.xaml.cs" Line="8" Column="45" />
-      <File FileName="HelloWorld/NextPage.xaml" Line="6" Column="1" />
-      <File FileName="HelloWorld/NextPage.xaml.cs" Line="11" Column="4" />
-      <File FileName="HelloWorld/MyPage2.xaml" Line="11" Column="1" />
-      <File FileName="HelloWorld/MyPage2.xaml.cs" Line="11" Column="4" />
-      <File FileName="HelloWorld/Base/MasterDetailPageBase.cs" Line="11" Column="37" />
-      <File FileName="HelloWorld/MasterPage.xaml" Line="11" Column="1" />
-      <File FileName="HelloWorld/MasterPage.xaml.cs" Line="22" Column="33" />
-      <File FileName="HelloWorld/MenuPage.cs" Line="43" Column="45" />
+      <File FileName="HelloWorld/NextPage.xaml" Line="13" Column="24" />
+      <File FileName="HelloWorld/NextPage.xaml.cs" Line="17" Column="42" />
+      <File FileName="HelloWorld/MyPage2.xaml" Line="2" Column="15" />
+      <File FileName="HelloWorld/MyPage2.xaml.cs" Line="15" Column="16" />
+      <File FileName="HelloWorld/MasterPage.xaml" Line="12" Column="1" />
+      <File FileName="HelloWorld/MasterPage.xaml.cs" Line="14" Column="43" />
+      <File FileName="HelloWorld/MenuPage.cs" Line="47" Column="1" />
+      <File FileName="HelloWorld/CarouselPage1.xaml" Line="12" Column="15" />
+      <File FileName="HelloWorld/CarouselPage1.xaml.cs" Line="8" Column="51" />
       <File FileName="iOS/Main.cs" Line="17" Column="1" />
       <File FileName="状態: HelloWorld" />
     </Files>

@@ -11,11 +11,19 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
+			// NavigationPageのヘッダー部に表示するタイトルとメニュー制御
+			this.Title = "MasteDetailPage Title";
+			this.ToolbarItems.Add(new ToolbarItem()
+			{
+				Text = "Menu1"
+			});
+			this.ToolbarItems[0].Clicked += (sender, e) => { this.DisplayAlert("Title", "Menu1 Click", "Cancel"); };
+
 			var menu = new MenuPage();
 			menu.Menu.ItemSelected += (sender, e) => NavigateTo(e.SelectedItem as MenuItem);
 
 			this.Master = menu;
-			this.Detail = new NextPage();
+			this.Detail = new HelloWorldPage();
 
 		}
 
