@@ -48,6 +48,12 @@
     <EmbeddedResource Include="CarouselPage1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="StylePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TopPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -82,6 +88,12 @@
     </Compile>
     <Compile Include="CarouselPage1.xaml.cs">
       <DependentUpon>CarouselPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StylePage.xaml.cs">
+      <DependentUpon>StylePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TopPage.xaml.cs">
+      <DependentUpon>TopPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

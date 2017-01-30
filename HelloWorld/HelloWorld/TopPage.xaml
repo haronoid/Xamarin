@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloWorld.TopPage">
+	<ContentPage.Content>
+		<StackLayout>
+			<Button Text="HelloWorld Page" Clicked="btnHelloWorldPage_Clicked"/>
+			<Button Text="MyPage1 Page" Clicked="btnMyPage1_Clicked"/>
+			<Button Text="MyPage2 Page" Clicked="btnMyPage2_Clicked"/>
+			<Button Text="Tapped Page" Clicked="btnTapped_Clicked" />
+			<Button Text="MasterDetail Page" Clicked="btnMasterDetail_Clicked"/>
+			<Button Text="Carouse Page" Clicked="btnCarousePage_Clicked"/>
+			<Button Text="Style Page" Clicked="btnStylePage_Clicked"/>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

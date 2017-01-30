@@ -16,7 +16,8 @@ namespace HelloWorld
 			//MainPage = new MyPage();
 			//MainPage = new MyPage2();
 			//MainPage = new MasterPage();
-			MainPage = new NavigationPage(new MasterPage());
+			//MainPage = new NavigationPage(new MasterPage());
+			MainPage = new TopPage();
 		}
 
 		protected override void OnStart()

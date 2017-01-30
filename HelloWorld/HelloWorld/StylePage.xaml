@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloWorld.StylePage">
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<!-- x:Key を指定しない Style は、TargetType に指定したコントロールに暗黙的に適用されます -->
+			<Style x:Key="labelStyle" TargetType="Label">
+				<Setter Property="HorizontalOptions" Value="Center" />
+				<Setter Property="FontSize" Value="Large"/>
+				<Setter Property="FontAttributes" Value="Bold,Italic"/>
+			</Style>
+			<Style TargetType="Button">
+				<Setter Property="FontSize" Value="Small" />
+			</Style>
+
+			<!-- 動的スタイル切り替え -->
+			<Style x:Key="labelStyleBase" TargetType="Label">
+				<Setter Property="HorizontalOptions" Value="Center" /> 
+				<Setter Property="FontSize" Value="Large" />
+				<Setter Property="FontAttributes" Value="Bold,Italic" /> 
+			</Style>
+			<Style x:Key="redLabelStyle" TargetType="Label" BasedOn="{StaticResource labelStyleBase}"> 
+				<Setter Property="TextColor" Value="Red" /> 
+			</Style>
+			<Style x:Key="blueLabelStyle" TargetType="Label" BasedOn="{StaticResource labelStyleBase}"> 
+				<Setter Property="TextColor" Value="Blue" /> 
+			</Style>
+			
+			<!-- Stypeの継承にあBaseOnで指定する -->
+			<Style x:Key="baseButton" TargetType="Button">
+				<Setter Property="FontSize" Value="Small" />
+			</Style>
+			<Style x:Key="redButton" TargetType="Button" BasedOn="{StaticResource baseButton}">
+				<Setter Property="TextColor" Value="Red"/>
+			</Style>
+			<Style x:Key="blueButton" TargetType="Button" BasedOn="{StaticResource baseButton}">
+				<Setter Property="TextColor" Value="Blue"/>
+			</Style>
+
+		</ResourceDictionary>
+	</ContentPage.Resources>
+	<ContentPage.Content>
+		<StackLayout>
+			<Label Text="同じスタイルを" Style="{StaticResource labelStyle}" />
+			<Label Text="適用したラベルを" Style="{StaticResource labelStyle}" />
+			<Label Text="設定する例" Style="{StaticResource labelStyle}" />
+			<Label Text="Hello" Style="{StaticResource labelStyle}" />
+			<Label Text="world" Style="{StaticResource labelStyle}" />
+			<!-- 指定なし -->
+			<Button Text="指定なし" />
+			<Button Text="redbutton" Style="{StaticResource redButton}"  />
+			<Button Text="bluebutton" Style="{StaticResource blueButton}" />
+
+			<Button Text="Style 切り替え" Clicked="Handle_Clicked" />
+			<Label Text="ここ スタイルを実行時に切り替えます" Style="{DynamicResource dynamicLabelStyle}" />
+			
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
