@@ -9,6 +9,10 @@
 			<Button Text="MasterDetail Page" Clicked="btnMasterDetail_Clicked"/>
 			<Button Text="Carouse Page" Clicked="btnCarousePage_Clicked"/>
 			<Button Text="Style Page" Clicked="btnStylePage_Clicked"/>
+
+			<Button Text="Gesture Page" Clicked="btnGesturePage_Clicked"/>
+			<Button Text="Animation Page" Clicked="btnAnimationPage_Clicked"/>
+
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

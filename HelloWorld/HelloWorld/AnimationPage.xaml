@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloWorld.AnimationPage">
+	<ContentPage.Padding>
+		<OnPlatform x:TypeArguments="Thickness" iOS="0,20,0,0" />
+	</ContentPage.Padding>
+	<ContentPage.Content>
+		<StackLayout>
+			<Grid>
+				<Label x:Name="lblDefault" Text="Default" />
+				<Label x:Name="lblAni1" Text="Ani1" />
+				<Label x:Name="lblAni2" Text="Ani2" />
+				<Label Text="Translation" TranslationX="100" TranslationY="100" /> 
+				<Label Text="Scale" TranslationX="50" TranslationY="50" AnchorX="0.5" AnchorY="0" Scale="3" />
+				<Label Text="Rotation" Rotation="45" RotationX="-45" RotationY="70" FontSize="45" />
+			</Grid>
+			<Button Text="Action" Clicked="btnAction_Clicked" />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

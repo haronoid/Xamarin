@@ -43,6 +43,17 @@ namespace HelloWorld
 			await this.Navigation.PushModalAsync(new StylePage());
 		}
 
+		async void btnGesturePage_Clicked(object sender, System.EventArgs e)
+		{
+			await this.Navigation.PushModalAsync(new GesturePage());
+		}
+
+		async void btnAnimationPage_Clicked(object sender, System.EventArgs e)
+		{
+			await this.Navigation.PushModalAsync(new AnimationPage());
+		}
+
+
 		public TopPage()
 		{
 			InitializeComponent();

@@ -33,3 +33,7 @@
 /Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.TopPage.xaml
 /Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.StylePage.xaml.g.cs
 /Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.TopPage.xaml.g.cs
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.GesturePage.xaml
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.GesturePage.xaml.g.cs
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.AnimationPage.xaml
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.AnimationPage.xaml.g.cs

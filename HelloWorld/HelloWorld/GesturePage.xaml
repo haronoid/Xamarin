@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloWorld.GesturePage">
+	<ContentPage.Padding>
+		<OnPlatform x:TypeArguments="Thickness" iOS="0,20,0,0" />
+	</ContentPage.Padding>
+	<ContentPage.Content>
+		<StackLayout>
+			<!-- Tap Gesture -->
+			<Grid HeightRequest="100" BackgroundColor="Green">
+				<Label Text="Double tap!!">
+					<Label.GestureRecognizers>
+						<TapGestureRecognizer Tapped="Handle_Tapped" NumberOfTapsRequired="2" />
+					</Label.GestureRecognizers>
+				</Label>
+			</Grid>
+			<!-- Pinch Gesture -->
+			<Grid HeightRequest="100" BackgroundColor="Aqua">
+				<Grid.GestureRecognizers>
+					<PinchGestureRecognizer PinchUpdated="Handle_PinchUpdated" />
+				</Grid.GestureRecognizers> <Label x:Name="labelStatus" Text="Display status" FontSize="Large" />
+			</Grid>
+			<!-- Pan Gesture -->
+			<Grid HeightRequest="100" BackgroundColor="Fuchsia">
+				<Grid.GestureRecognizers>
+					<PanGestureRecognizer PanUpdated="Handle_PanUpdated" />
+				</Grid.GestureRecognizers> 
+				<Label x:Name="labelStatus2" Text="Display status" FontSize="Large" /> 
+			</Grid>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

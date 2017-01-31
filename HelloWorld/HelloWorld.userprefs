@@ -15,8 +15,10 @@
       <File FileName="iOS/Main.cs" Line="17" Column="1" />
       <File FileName="HelloWorld/StylePage.xaml" Line="15" Column="23" />
       <File FileName="HelloWorld/StylePage.xaml.cs" Line="24" Column="1" />
-      <File FileName="HelloWorld/TopPage.xaml" Line="8" Column="57" />
-      <File FileName="HelloWorld/TopPage.xaml.cs" Line="31" Column="72" />
+      <File FileName="HelloWorld/TopPage.xaml" Line="14" Column="67" />
+      <File FileName="HelloWorld/TopPage.xaml.cs" Line="46" Column="71" />
+      <File FileName="HelloWorld/AnimationPage.xaml" Line="11" Column="40" />
+      <File FileName="HelloWorld/AnimationPage.xaml.cs" Line="17" Column="1" />
       <File FileName="状態: HelloWorld" />
     </Files>
   </MonoDevelop.Ide.Workbench>
