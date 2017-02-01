@@ -60,6 +60,9 @@
     <EmbeddedResource Include="AnimationPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="BeheaviorPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -106,6 +109,10 @@
     </Compile>
     <Compile Include="AnimationPage.xaml.cs">
       <DependentUpon>AnimationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MyBehavior.cs" />
+    <Compile Include="BeheaviorPage.xaml.cs">
+      <DependentUpon>BeheaviorPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

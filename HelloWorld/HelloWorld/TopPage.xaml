@@ -12,6 +12,7 @@
 
 			<Button Text="Gesture Page" Clicked="btnGesturePage_Clicked"/>
 			<Button Text="Animation Page" Clicked="btnAnimationPage_Clicked"/>
+			<Button Text="Beheavior Page" Clicked="btnBeheaviorPage_Clicked"/>
 
 		</StackLayout>
 	</ContentPage.Content>

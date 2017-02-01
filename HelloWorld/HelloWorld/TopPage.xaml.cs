@@ -53,6 +53,13 @@ namespace HelloWorld
 			await this.Navigation.PushModalAsync(new AnimationPage());
 		}
 
+		async void btnBeheaviorPage_Clicked(object sender, System.EventArgs e)
+		{
+			BeheaviorPage page = new BeheaviorPage();
+			await this.Navigation.PushModalAsync(page);
+			page = null;
+		}
+
 
 		public TopPage()
 		{

@@ -11,7 +11,7 @@ namespace HelloWorld
 	{
 		async void btnAction_Clicked(object sender, System.EventArgs e)
 		{
-			await this.lblAni1.TranslateTo(150, 150);
+			await this.lblAni1.TranslateTo(150, 300, 5000, Easing.SpringIn);
 			await Task.WhenAll<bool>(
 				this.lblAni2.RotateTo(1000, 100000)
 			);
