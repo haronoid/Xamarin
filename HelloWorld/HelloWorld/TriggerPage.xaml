@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+		xmlns="http://xamarin.com/schemas/2014/forms"
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:base="clr-namespace:HelloWorld.Base" 
+		xmlns:local="clr-namespace:HelloWorld" 
+		x:Class="HelloWorld.TriggerPage">
+	<ContentPage.Padding>
+		<OnPlatform x:TypeArguments="Thickness" iOS="0,20,0,0" />
+	</ContentPage.Padding>
+
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<local:IsGreaterZeroConverter x:Key="isGreaterZeroConverter" />
+		</ResourceDictionary>
+	</ContentPage.Resources>
+	
+	<StackLayout>
+		<Entry x:Name="entry" Text="Input"> 
+			<Entry.Triggers>
+				<Trigger TargetType="Entry" Property="IsFocused" Value="true">
+					<Setter Property="BackgroundColor" Value="Olive" /> 
+				</Trigger>
+			</Entry.Triggers>
+		</Entry>
+
+		<Button Text="OK">
+			<Button.Triggers>
+				<DataTrigger TargetType="Button" Binding="{Binding Text.Length, Source={x:Reference entry}" Value="0">
+					<Setter Property="IsEnabled" Value="false"/>
+				</DataTrigger>
+				<EventTrigger Event="Clicked">
+					<local:MyTriggerAction />
+				</EventTrigger>
+			</Button.Triggers>
+		</Button>
+
+		<Entry x:Name="loginid" Text="" />
+		<Entry x:Name="loginpw" Text="" IsPassword="true"/>
+
+		<Button Text="Login" IsEnabled="false">
+			<Button.Triggers>
+				<MultiTrigger TargetType="Button">
+					<MultiTrigger.Conditions>
+						<BindingCondition Binding="{Binding Text.Length, Source={x:Reference loginid}, Converter={StaticResource isGreaterZeroConverter}}" Value="true"/>
+						<BindingCondition Binding="{Binding Text.Length, Source={x:Reference loginpw}, Converter={StaticResource isGreaterZeroConverter}}" Value="true"/>
+					</MultiTrigger.Conditions>
+					<Setter Property="IsEnabled" Value="true" />
+				</MultiTrigger>
+			</Button.Triggers>
+		</Button>
+		
+	</StackLayout>
+
+</ContentPage>

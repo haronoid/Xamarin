@@ -60,6 +60,10 @@ namespace HelloWorld
 			page = null;
 		}
 
+		async void btnTriggerPage_Clicked(object sender, System.EventArgs e)
+		{
+			await this.Navigation.PushModalAsync(new TriggerPage());
+		}
 
 		public TopPage()
 		{

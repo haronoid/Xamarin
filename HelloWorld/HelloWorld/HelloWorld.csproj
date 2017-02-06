@@ -63,6 +63,9 @@
     <EmbeddedResource Include="BeheaviorPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="TriggerPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -113,6 +116,9 @@
     <Compile Include="MyBehavior.cs" />
     <Compile Include="BeheaviorPage.xaml.cs">
       <DependentUpon>BeheaviorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TriggerPage.xaml.cs">
+      <DependentUpon>TriggerPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

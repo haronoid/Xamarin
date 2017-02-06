@@ -4,16 +4,15 @@
     <Files>
       <File FileName="HelloWorld/App.xaml.cs" Line="17" Column="31" />
       <File FileName="HelloWorld/MyPage.xaml.cs" Line="8" Column="45" />
-      <File FileName="HelloWorld/MyPage2.xaml" Line="2" Column="17" />
+      <File FileName="HelloWorld/MyPage2.xaml" Line="7" Column="32" />
       <File FileName="HelloWorld/MyPage2.xaml.cs" Line="15" Column="16" />
       <File FileName="HelloWorld/MasterPage.xaml" Line="12" Column="1" />
       <File FileName="HelloWorld/MasterPage.xaml.cs" Line="14" Column="43" />
       <File FileName="HelloWorld/MenuPage.cs" Line="47" Column="1" />
-      <File FileName="HelloWorld/TopPage.xaml" Line="15" Column="67" />
-      <File FileName="HelloWorld/TopPage.xaml.cs" Line="63" Column="3" />
-      <File FileName="HelloWorld/MyBehavior.cs" Line="31" Column="1" />
-      <File FileName="HelloWorld/BeheaviorPage.xaml" Line="15" Column="48" />
-      <File FileName="HelloWorld/BeheaviorPage.xaml.cs" Line="21" Column="1" />
+      <File FileName="HelloWorld/TopPage.xaml" Line="17" Column="63" />
+      <File FileName="HelloWorld/TopPage.xaml.cs" Line="63" Column="51" />
+      <File FileName="HelloWorld/TriggerPage.xaml" Line="41" Column="42" />
+      <File FileName="HelloWorld/TriggerPage.xaml.cs" Line="35" Column="4" />
       <File FileName="状態: HelloWorld" />
     </Files>
   </MonoDevelop.Ide.Workbench>
