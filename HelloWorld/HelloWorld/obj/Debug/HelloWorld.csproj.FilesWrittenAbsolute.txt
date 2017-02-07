@@ -41,3 +41,5 @@
 /Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.BeheaviorPage.xaml.g.cs
 /Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.TriggerPage.xaml
 /Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.TriggerPage.xaml.g.cs
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.MessageCenterPage.xaml
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.MessageCenterPage.xaml.g.cs

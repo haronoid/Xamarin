@@ -66,6 +66,9 @@
     <EmbeddedResource Include="TriggerPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="MessageCenterPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -119,6 +122,9 @@
     </Compile>
     <Compile Include="TriggerPage.xaml.cs">
       <DependentUpon>TriggerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MessageCenterPage.xaml.cs">
+      <DependentUpon>MessageCenterPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

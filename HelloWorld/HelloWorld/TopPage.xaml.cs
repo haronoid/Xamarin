@@ -65,6 +65,11 @@ namespace HelloWorld
 			await this.Navigation.PushModalAsync(new TriggerPage());
 		}
 
+		async void btnMessageCenter_Clicked(object sender, System.EventArgs e)
+		{
+			await this.Navigation.PushModalAsync(new MessageCenterPage());
+		}
+
 		public TopPage()
 		{
 			InitializeComponent();
