@@ -70,6 +70,11 @@ namespace HelloWorld
 			await this.Navigation.PushModalAsync(new MessageCenterPage());
 		}
 
+		async void btnDependencyService_Clicked(object sender, System.EventArgs e)
+		{
+			await this.Navigation.PushModalAsync(new DependencyServicePage());
+		}
+
 		public TopPage()
 		{
 			InitializeComponent();

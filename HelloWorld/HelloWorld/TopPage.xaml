@@ -19,6 +19,8 @@
 
 				<Button Text="MessageCenter Page" Clicked="btnMessageCenter_Clicked"/>
 
+				<Button Text="DependencyService Page" Clicked="btnDependencyService_Clicked"/>
+
 			</StackLayout>
 		</ScrollView>
 	

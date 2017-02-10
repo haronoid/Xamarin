@@ -69,6 +69,9 @@
     <EmbeddedResource Include="MessageCenterPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="DependencyServicePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -125,6 +128,10 @@
     </Compile>
     <Compile Include="MessageCenterPage.xaml.cs">
       <DependentUpon>MessageCenterPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="IMyDependecyProvider.cs" />
+    <Compile Include="DependencyServicePage.xaml.cs">
+      <DependentUpon>DependencyServicePage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
