@@ -75,6 +75,12 @@ namespace HelloWorld
 			await this.Navigation.PushModalAsync(new DependencyServicePage());
 		}
 
+		async void btnEffectPage_Clicked(object sender, System.EventArgs e)
+		{
+			await this.Navigation.PushModalAsync(new EffectPage());
+		}
+
+
 		public TopPage()
 		{
 			InitializeComponent();

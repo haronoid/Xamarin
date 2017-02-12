@@ -72,6 +72,9 @@
     <EmbeddedResource Include="DependencyServicePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="EffectPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -132,6 +135,10 @@
     <Compile Include="IMyDependecyProvider.cs" />
     <Compile Include="DependencyServicePage.xaml.cs">
       <DependentUpon>DependencyServicePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UnderlineEffect.cs" />
+    <Compile Include="EffectPage.xaml.cs">
+      <DependentUpon>EffectPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:base="clr-namespace:HelloWorld.Base" 
+		xmlns:local="clr-namespace:HelloWorld" 
+		x:Class="HelloWorld.EffectPage">
+	<ContentPage.Padding>
+		<OnPlatform x:TypeArguments="Thickness" iOS="0,20,0,0" />
+	</ContentPage.Padding>
+
+	<StackLayout>
+		<Label x:Name="labelTimer" FontSize="Large">
+			<Label.Effects>
+				<local:UnderlineEffect />
+			</Label.Effects>
+		</Label>
+	</StackLayout>
+
+</ContentPage>

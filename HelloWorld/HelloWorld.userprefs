@@ -3,21 +3,19 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="状態: HelloWorld">
     <Files>
       <File FileName="HelloWorld/App.xaml.cs" Line="7" Column="2" />
-      <File FileName="HelloWorld/MyPage.xaml.cs" Line="8" Column="45" />
-      <File FileName="HelloWorld/MyPage2.xaml" Line="7" Column="32" />
-      <File FileName="HelloWorld/MyPage2.xaml.cs" Line="15" Column="16" />
-      <File FileName="HelloWorld/MasterPage.xaml" Line="12" Column="1" />
-      <File FileName="HelloWorld/MasterPage.xaml.cs" Line="14" Column="43" />
-      <File FileName="HelloWorld/MenuPage.cs" Line="47" Column="1" />
-      <File FileName="HelloWorld/TopPage.xaml" Line="22" Column="80" />
-      <File FileName="HelloWorld/TopPage.xaml.cs" Line="75" Column="66" />
-      <File FileName="HelloWorld/MessageCenterPage.xaml" Line="13" Column="49" />
-      <File FileName="HelloWorld/MessageCenterPage.xaml.cs" Line="29" Column="10" />
+      <File FileName="HelloWorld/TopPage.xaml" Line="24" Column="62" />
+      <File FileName="HelloWorld/TopPage.xaml.cs" Line="81" Column="4" />
       <File FileName="HelloWorld/IMyDependecyProvider.cs" Line="2" Column="1" />
       <File FileName="Droid/MyDependencyProvider.cs" Line="1" Column="1" />
       <File FileName="HelloWorld/DependencyServicePage.xaml" Line="8" Column="28" />
       <File FileName="HelloWorld/DependencyServicePage.xaml.cs" Line="14" Column="60" />
       <File FileName="iOS/MyDependencyProvider.cs" Line="3" Column="2" />
+      <File FileName="Droid/UnderlineEffect.cs" Line="21" Column="84" />
+      <File FileName="iOS/UnderlineEffect.cs" Line="8" Column="80" />
+      <File FileName="HelloWorld/UnderlineEffect.cs" Line="13" Column="1" />
+      <File FileName="HelloWorld/EffectPage.xaml" Line="19" Column="2" />
+      <File FileName="HelloWorld/EffectPage.xaml.cs" Line="14" Column="51" />
+      <File FileName="iOS/Main.cs" Line="21" Column="1" />
       <File FileName="状態: HelloWorld" />
     </Files>
   </MonoDevelop.Ide.Workbench>
