@@ -10,12 +10,11 @@
       <File FileName="HelloWorld/DependencyServicePage.xaml" Line="8" Column="28" />
       <File FileName="HelloWorld/DependencyServicePage.xaml.cs" Line="14" Column="60" />
       <File FileName="iOS/MyDependencyProvider.cs" Line="3" Column="2" />
-      <File FileName="Droid/UnderlineEffect.cs" Line="21" Column="84" />
-      <File FileName="iOS/UnderlineEffect.cs" Line="8" Column="80" />
-      <File FileName="HelloWorld/UnderlineEffect.cs" Line="13" Column="1" />
-      <File FileName="HelloWorld/EffectPage.xaml" Line="19" Column="2" />
-      <File FileName="HelloWorld/EffectPage.xaml.cs" Line="14" Column="51" />
-      <File FileName="iOS/Main.cs" Line="21" Column="1" />
+      <File FileName="Droid/UnderlineEffect.cs" Line="27" Column="1" />
+      <File FileName="iOS/UnderlineEffect.cs" Line="30" Column="1" />
+      <File FileName="HelloWorld/UnderlineEffect.cs" Line="10" Column="3" />
+      <File FileName="HelloWorld/EffectPage.xaml" Line="21" Column="1" />
+      <File FileName="HelloWorld/EffectPage.xaml.cs" Line="15" Column="1" />
       <File FileName="状態: HelloWorld" />
     </Files>
   </MonoDevelop.Ide.Workbench>

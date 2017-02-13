@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using Android.Widget;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
@@ -18,7 +19,11 @@ namespace HelloWorld.Droid
 			var label = this.Control as TextView;
 			if (label == null) { return; }
 
-			label.PaintFlags = label.PaintFlags | Android.Graphics.PaintFlags.UnderlineText;
+			var effect = this.Element.Effects.First(x => x is HelloWorld.UnderlineEffect) as HelloWorld.UnderlineEffect;
+			if (effect.IsEnabled)
+			{
+				label.PaintFlags = label.PaintFlags | Android.Graphics.PaintFlags.UnderlineText;
+			}
 		}
 
 		protected override void OnDetached()

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.ComponentModel;
 using UIKit;
 using Xamarin.Forms;
@@ -16,11 +17,16 @@ namespace HelloWorld.iOS
 
 		protected override void OnAttached()
 		{
-				var label = this.Control as UILabel;
-				if (label == null) { return; }
+			var label = this.Control as UILabel;
+			if (label == null) { return; }
 
+			var effect = this.Element.Effects.First(x => x is HelloWorld.UnderlineEffect) as HelloWorld.UnderlineEffect;
+
+			if (effect.IsEnabled)
+			{
 				label.AttributedText = new Foundation.NSAttributedString(
 					label.Text ?? "", underlineStyle: Foundation.NSUnderlineStyle.Single);
+			}
 		}
 
 		protected override void OnDetached()
