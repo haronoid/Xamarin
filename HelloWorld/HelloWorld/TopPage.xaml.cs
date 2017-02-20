@@ -80,6 +80,11 @@ namespace HelloWorld
 			await this.Navigation.PushModalAsync(new EffectPage());
 		}
 
+		async void btnCustomRenderer_Clicked(object sender, System.EventArgs e)
+		{
+			await this.Navigation.PushModalAsync(new CustomRendererPage());
+		}
+
 
 		public TopPage()
 		{

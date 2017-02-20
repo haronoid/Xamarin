@@ -22,6 +22,9 @@
 				<Button Text="DependencyService Page" Clicked="btnDependencyService_Clicked"/>
 
 				<Button Text="Effect Page" Clicked="btnEffectPage_Clicked"/>
+
+				<Button Text="CustomRenderer Page" Clicked="btnCustomRenderer_Clicked"/>
+
 			</StackLayout>
 		</ScrollView>
 	
