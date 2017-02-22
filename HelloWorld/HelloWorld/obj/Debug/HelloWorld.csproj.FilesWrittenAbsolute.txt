@@ -49,3 +49,5 @@
 /Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.EffectPage.xaml.g.cs
 /Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.CustomRendererPage.xaml
 /Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.CustomRendererPage.xaml.g.cs
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.PropertiesStorePage.xaml
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.PropertiesStorePage.xaml.g.cs

@@ -1,11 +1,18 @@
 ﻿<Properties StartupConfiguration="{52EE2CEB-C4E6-4F71-8AAE-90933C2E09DC}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workbench ActiveDocument="状態: HelloWorld">
     <Files>
-      <File FileName="HelloWorld/CustomRendererPage.xaml" Line="3" Column="3" />
+      <File FileName="HelloWorld/CustomRendererPage.xaml" Line="8" Column="1" />
       <File FileName="HelloWorld/CustomRendererPage.xaml.cs" Line="19" Column="3" />
       <File FileName="HelloWorld/Properties/AssemblyInfo.cs" Line="29" Column="1" />
       <File FileName="Droid/CustomButtonRenderer.cs" Line="45" Column="54" />
       <File FileName="iOS/CustomButtonRenderer.cs" Line="42" Column="53" />
+      <File FileName="HelloWorld/TopPage.xaml" Line="28" Column="76" />
+      <File FileName="HelloWorld/TopPage.xaml.cs" Line="90" Column="64" />
+      <File FileName="HelloWorld/PropertiesStorePage.xaml" Line="10" Column="49" />
+      <File FileName="HelloWorld/PropertiesStorePage.xaml.cs" Line="26" Column="4" />
+      <File FileName="Droid/MyDependencyProvider.cs" Line="6" Column="32" />
+      <File FileName="Droid/FileIODependencyProvider.cs" Line="28" Column="1" />
+      <File FileName="iOS/FileIODependencyProvider.cs" Line="12" Column="4" />
       <File FileName="状態: HelloWorld" />
     </Files>
   </MonoDevelop.Ide.Workbench>

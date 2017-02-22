@@ -25,6 +25,8 @@
 
 				<Button Text="CustomRenderer Page" Clicked="btnCustomRenderer_Clicked"/>
 
+				<Button Text="PropertiesStore Page" Clicked="btnPropertiesStore_Clicked"/>
+
 			</StackLayout>
 		</ScrollView>
 	

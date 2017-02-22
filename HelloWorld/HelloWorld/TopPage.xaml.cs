@@ -85,6 +85,11 @@ namespace HelloWorld
 			await this.Navigation.PushModalAsync(new CustomRendererPage());
 		}
 
+		async void btnPropertiesStore_Clicked(object sender, System.EventArgs e)
+		{
+			await this.Navigation.PushModalAsync(new PropertiesStorePage());
+		}
+
 
 		public TopPage()
 		{

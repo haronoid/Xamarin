@@ -113,6 +113,7 @@
     <Compile Include="MyDependencyProvider.cs" />
     <Compile Include="UnderlineEffect.cs" />
     <Compile Include="CustomButtonRenderer.cs" />
+    <Compile Include="FileIODependencyProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

@@ -78,6 +78,9 @@
     <EmbeddedResource Include="CustomRendererPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="PropertiesStorePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -145,6 +148,9 @@
     </Compile>
     <Compile Include="CustomRendererPage.xaml.cs">
       <DependentUpon>CustomRendererPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PropertiesStorePage.xaml.cs">
+      <DependentUpon>PropertiesStorePage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
