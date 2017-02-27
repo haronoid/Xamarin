@@ -114,6 +114,7 @@
     <Compile Include="UnderlineEffect.cs" />
     <Compile Include="CustomButtonRenderer.cs" />
     <Compile Include="FileIODependencyProvider.cs" />
+    <Compile Include="DbPathProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

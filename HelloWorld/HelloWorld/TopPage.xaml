@@ -27,6 +27,8 @@
 
 				<Button Text="PropertiesStore Page" Clicked="btnPropertiesStore_Clicked"/>
 
+				<Button Text="SqlLiteStore Page" Clicked="btnSqlLiteStore_Clicked"/>
+
 			</StackLayout>
 		</ScrollView>
 	

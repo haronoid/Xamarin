@@ -90,6 +90,10 @@ namespace HelloWorld
 			await this.Navigation.PushModalAsync(new PropertiesStorePage());
 		}
 
+		async void btnSqlLiteStore_Clicked(object sender, System.EventArgs e)
+		{
+			await this.Navigation.PushModalAsync(new SqlLitePage());
+		}
 
 		public TopPage()
 		{

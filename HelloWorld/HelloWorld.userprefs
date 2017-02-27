@@ -6,13 +6,16 @@
       <File FileName="HelloWorld/Properties/AssemblyInfo.cs" Line="29" Column="1" />
       <File FileName="Droid/CustomButtonRenderer.cs" Line="45" Column="54" />
       <File FileName="iOS/CustomButtonRenderer.cs" Line="42" Column="53" />
-      <File FileName="HelloWorld/TopPage.xaml" Line="28" Column="76" />
-      <File FileName="HelloWorld/TopPage.xaml.cs" Line="90" Column="64" />
-      <File FileName="HelloWorld/PropertiesStorePage.xaml" Line="10" Column="49" />
+      <File FileName="HelloWorld/TopPage.xaml" Line="30" Column="70" />
+      <File FileName="HelloWorld/TopPage.xaml.cs" Line="95" Column="57" />
+      <File FileName="HelloWorld/PropertiesStorePage.xaml" Line="4" Column="1" />
       <File FileName="HelloWorld/PropertiesStorePage.xaml.cs" Line="26" Column="4" />
-      <File FileName="Droid/MyDependencyProvider.cs" Line="6" Column="32" />
       <File FileName="Droid/FileIODependencyProvider.cs" Line="28" Column="1" />
       <File FileName="iOS/FileIODependencyProvider.cs" Line="12" Column="4" />
+      <File FileName="HelloWorld/SqlLitePage.xaml" Line="10" Column="43" />
+      <File FileName="HelloWorld/SqlLitePage.xaml.cs" Line="12" Column="4" />
+      <File FileName="Droid/DbPathProvider.cs" Line="15" Column="12" />
+      <File FileName="iOS/DbPathProvider.cs" Line="19" Column="5" />
       <File FileName="状態: HelloWorld" />
     </Files>
   </MonoDevelop.Ide.Workbench>
