@@ -51,3 +51,14 @@
 /Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.CustomRendererPage.xaml.g.cs
 /Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.PropertiesStorePage.xaml
 /Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.PropertiesStorePage.xaml.g.cs
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.SqlLitePage.xaml
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/obj/Debug/HelloWorld.SqlLitePage.xaml.g.cs
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/bin/Debug/SQLitePCLRaw.core.dll
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/bin/Debug/SQLitePCLRaw.batteries_green.dll
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/bin/Debug/SQLitePCLRaw.batteries_v2.dll
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/bin/Debug/SQLite-net.dll
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/bin/Debug/Microsoft.Practices.ServiceLocation.dll
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/bin/Debug/Prism.dll
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/bin/Debug/Microsoft.Practices.Unity.dll
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/bin/Debug/Prism.Forms.dll
+/Volumes/TRANSCEND/git/Xamarin/HelloWorld/HelloWorld/bin/Debug/Prism.Unity.Forms.dll
