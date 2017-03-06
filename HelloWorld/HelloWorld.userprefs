@@ -12,10 +12,11 @@
       <File FileName="HelloWorld/PropertiesStorePage.xaml.cs" Line="26" Column="4" />
       <File FileName="Droid/FileIODependencyProvider.cs" Line="28" Column="1" />
       <File FileName="iOS/FileIODependencyProvider.cs" Line="12" Column="4" />
-      <File FileName="HelloWorld/SqlLitePage.xaml" Line="10" Column="43" />
-      <File FileName="HelloWorld/SqlLitePage.xaml.cs" Line="12" Column="4" />
+      <File FileName="HelloWorld/SqlLitePage.xaml" Line="11" Column="6" />
+      <File FileName="HelloWorld/SqlLitePage.xaml.cs" Line="31" Column="4" />
       <File FileName="Droid/DbPathProvider.cs" Line="15" Column="12" />
       <File FileName="iOS/DbPathProvider.cs" Line="19" Column="5" />
+      <File FileName="HelloWorld/Models/Person.cs" Line="10" Column="18" />
       <File FileName="状態: HelloWorld" />
     </Files>
   </MonoDevelop.Ide.Workbench>

@@ -1,10 +1,15 @@
 ﻿using System;
+using SQLite;
 using Xamarin.Forms;
 
 namespace HelloWorld
 {
 	public class Person
 	{
+		[PrimaryKey]
+		[AutoIncrement]
+		public int Id { get; set; }
+
 		public string Name { get; set; }
 		public int Age { get; set; }
 

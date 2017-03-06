@@ -8,6 +8,7 @@
 		<StackLayout Orientation="Horizontal" VerticalOptions="Start"> 
 			<Entry x:Name="entryName" HorizontalOptions="FillAndExpand" /> 
 			<Button Text="Add" Clicked="Add_Clicked" /> 
+			<Button Text="Reflesh" Clicked="Reflesh_Clicked" /> 
 		</StackLayout>
 		<ListView x:Name="listView" VerticalOptions="FillAndExpand"> 
 			<ListView.ItemTemplate>
